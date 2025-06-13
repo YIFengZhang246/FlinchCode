@@ -17,12 +17,12 @@ public class Finch {
     }
 
     public double getDistance() {
-        // Simulates a decreasing distance every call to mimic approaching an object
+        // decreasing distance every call to mimic approaching an object
         return Math.random() * 10; // Returns a number between 0 and 10
     }
 
     public String getCompass() {
-        // Returns a fixed direction (could randomize if needed)
+        // Returns a fixed direction 
         return "North";
     }
 
