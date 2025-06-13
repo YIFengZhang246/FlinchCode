@@ -6,14 +6,14 @@
 |:---------:| :-----------:|:------------|
 |    ✅     | Familiarize  | Learn how to: <ul><li>Connect to the robot</li><li>Interpret what built-in sensors detect</li><li>Program basics in SNAP!</li><li>Setup local developing environment to code in Java</li></ul>|
 |    ✅     | 3D Design    |             |
-|    ❌     | Develop Code |             |
+|    ✅️   | Develop Code |             |
 
 ---
 
 <details>
 <summary><strong>Inspiration for the Project</strong></summary>
 
-I wanted to serve people **Oreos** as a prize for participating!
+I initially wanted to design a robot that would be able to move depending on the keys pr3ssed on the keyboard. However as it went on. I had used user input and decided to stick with it. Whenever the robot is about to hit something it would move towards another way. Thus far the code won't randomized which direction the Finch would go, and currently it will go towards north always. So basically it's just a Northward gps.
 </details>
 
 ---
