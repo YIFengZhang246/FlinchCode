@@ -49,6 +49,8 @@ From the use of key controlled Finch to a more randomized game like Finch with a
 At first I wanted to design a robot who will go towards the direction based on the input I decide on. Yet I to redirect my focus on a more game like approach which would be better for what I printed. Which was a bucket with coins that could be thrown in towards a robot that would run towards random directions. Thus concluded with a system that can technically go towards random directions, however. So far it can only go North which would be like a GPS.
 
 - What problem does it solve?
-Currently with what the code does since I haven't randomized the direction the Finch would to towards. It should act as a GPS to run towards North.
+Currently with what the code does since I haven't randomized the direction the Finch would go towards. It should act as a GPS to run towards North. 
 
 - What did you learn?
+From this project, I learn how to control a robot using options (shown in the cases in my code). It taught me how to design and interact with objects using methods and classes, which is important in object-oriented programming. Through this i learned more about sensors like distance and motion. Overall, it’s a great introduction to programming logic, robotics behavior, and real time system responses.
+
