@@ -22,7 +22,7 @@ I initially wanted to design a robot that would be able to move depending on the
 <img src="design_cycle.png" alt="design cycle" width="300" height="300">
 
 ###### Commentary
-
+From the use of key controlled Finch to a more randomized game like Finch with a bucket  attached for throwing of printed coins.
 ---
 
 ### Code to Highlight
