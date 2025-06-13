@@ -13,7 +13,7 @@
 <details>
 <summary><strong>Inspiration for the Project</strong></summary>
 
-I initially wanted to design a robot that would be able to move depending on the keys pr3ssed on the keyboard. However as it went on. I had used user input and decided to stick with it. Whenever the robot is about to hit something it would move towards another way. Thus far the code won't randomized which direction the Finch would go, and currently it will go towards north always. So basically it's just a Northward gps.
+I initially wanted to design a robot that would be able to move depending on the keys pr3ssed on the keyboard. However as it went on. I had used user input and decided to stick with it. Whenever the robot is about to hit something it would move towards another way. Thus far the code won't randomized which direction the Finch would go, and currently it will go towards north always. So basically it's just a Northward GPS for now.
 </details>
 
 ---
@@ -21,7 +21,7 @@ I initially wanted to design a robot that would be able to move depending on the
 ### Design Cycle
 <img src="design_cycle.png" alt="design cycle" width="300" height="300">
 
-###### Include commentary on your experience with the design cycle during this project
+###### Commentary
 
 ---
 
