@@ -27,27 +27,28 @@ From the use of key controlled Finch to a more randomized game like Finch with a
 
 ### Code to Highlight
 ```java
-public static void followLine(Finch f) {
-        int left = f.getLine("L");
-        int right = f.getLine("R");
+            switch (option) {
+                case 1:
+                    String direction;
+                    int distance;
+                    int speed;
 
-        System.out.println("left: " + left + " right: " + right);
-        if (left < 90) {
-                f.setMotors(0, 10);
-        } else if (right > 90) {
-                f.setMotors(10, 0);
-        } else {
-                f.setMotors(10, 10);
-        }
-        f.pause(.1);
-}
+                    while (true) {
+                        System.out.print("Enter direction (F/B): ");
+                        direction = scanner.nextLine().trim().toUpperCase();
+                        if (direction.equals("F") || direction.equals("B")) {
+                            break;
+                        }
+
+// This was a life saver since I didn't need to problem solve to switch cases. 
 ```
 
 ---
 
-### Choose At Least Three of the Following to Include:
 - What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+At first I wanted to design a robot who will go towards the direction based on the input I decide on. Yet I to redirect my focus on a more game like approach which would be better for what I printed. Which was a bucket with coins that could be thrown in towards a robot that would run towards random directions. Thus concluded with a system that can technically go towards random directions, however. So far it can only go North which would be like a GPS.
+
 - What problem does it solve?
+Currently with what the code does since I haven't randomized the direction the Finch would to towards. It should act as a GPS to run towards North.
+
 - What did you learn?
-- What makes your project stand out?
